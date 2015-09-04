@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Rocko
+        psr4_prefix: Rocko
+        src_path: app
