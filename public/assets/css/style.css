@@ -846,3 +846,11 @@ body{
     font-family: 'fontleroybrownregular';
     font-size: 1.7em !important;
 }
+
+.shop_categories {
+    color: #9F9F9F;
+    font-size: 3em;
+    display: block;
+    text-align: center;
+    font-family: 'fontleroybrownregular';
+}

@@ -11,6 +11,7 @@ class OurBeersTableSeeder extends Seeder
      */
     public function run()
     {
+
         DB::table('our_beers')->insert([
             'name' => 'Imperial Stout',
             'description' => 'description for Imperial',

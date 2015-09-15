@@ -8,6 +8,7 @@
 	{!! Html::style('assets/css/slider.css') !!}
 	{!! Html::script('assets/js/jquery.min.js') !!}
 	{!! Html::script('assets/js/slidermodernizr.custom.js') !!}
+	@yield('head')
 </head>
 <body>
 		<!-- Background slider -->
@@ -37,16 +38,19 @@
 			<div class="nav">			
 				<ul>
 					<li><a href="home">Home</a></li>
-			    	<li><a href="about">About</a></li>
+			    	<li><a href="pub">Pub</a></li>
 			    	<li><a href="ourbeers">Our Beers</a></li>
 			    	<li><a href="gallery">Gallery</a></li>			    	
-			    	<li><a href="blog">Shop</a></li>
+			    	<li><a href="shop">Shop</a></li>
 			    	<li><a href="contact">Contact</a></li>
 			    	<div class="clear"></div>
-				</ul>	
+				</ul>
+
 			</div>	 
+
 			<div class="clear"></div>		   
 			</div>
+
 		</div>
 		
 		<div class="wrap">
