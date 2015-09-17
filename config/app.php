@@ -145,6 +145,10 @@ return [
         Rocko\Providers\EventServiceProvider::class,
         Rocko\Providers\RouteServiceProvider::class,
 
+        // Other Service Providers
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::Class,
+
+
     ],
 
     /*
